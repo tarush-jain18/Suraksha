@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Generated runtime files
+data/processed/dispatch_logs/
+data/processed/dispatch_state/
+
+# Large/generated caches
+data/processed/infrastructure_*.json
+
+# Credentials
+*.json.key
+credentials/
+service-account*.json
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# ==========================================
+# Generated / runtime data
+# ==========================================
+
+data/processed/dispatch_logs/
+data/processed/dispatch_state/
+data/processed/infrastructure_*.json
+
+# ==========================================
+# Large raw datasets
+# ==========================================
+
+data/historical/raw/
+data/raw/imd/
+
+# ==========================================
+# Generated files
+# ==========================================
+
+data/processed/dashboard.json
+data/processed/current_cyclone.json
+data/processed/healthcare_*.json
+
+# ==========================================
+# Local infrastructure/cache data
+# ==========================================
+
+*.cache

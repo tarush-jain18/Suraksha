@@ -1,0 +1,52 @@
+[
+  {
+    "authority_id": "odisha_ddma",
+    "authority_type": "DISTRICT_DISASTER_MANAGEMENT",
+    "name": "District Disaster Management Authority",
+    "district": "Puri",
+    "email": "tarushjaintj11feb@gmail.com",
+    "phone": "+917683066375",
+    "channels": [
+      "email",
+      "sms"
+    ],
+    "active": true
+  },
+  {
+    "authority_id": "puri_municipality",
+    "authority_type": "MUNICIPAL_AUTHORITY",
+    "name": "Puri Municipal Authority",
+    "district": "Puri",
+    "email": "tarushjaintj11feb@gmail.com",
+    "phone": "+917683066375",
+    "channels": [
+      "email",
+      "sms"
+    ],
+    "active": true
+  },
+  {
+    "authority_id": "puri_block",
+    "authority_type": "BLOCK_ADMINISTRATION",
+    "name": "Puri Block Administration",
+    "district": "Puri",
+    "email": "tarushjaintj11feb@gmail.com",
+    "phone": "+917683066375",
+    "channels": [
+      "email"
+    ],
+    "active": true
+  },
+  {
+    "authority_id": "puri_emergency",
+    "authority_type": "LOCAL_EMERGENCY_SERVICES",
+    "name": "Puri Emergency Services",
+    "district": "Puri",
+    "email": "tarushjaintj11feb@gmail.com",
+    "phone": "+917683066375",
+    "channels": [
+      "sms"
+    ],
+    "active": true
+  }
+]

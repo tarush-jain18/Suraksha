@@ -1,0 +1,42 @@
+[
+  {
+    "id": "H001",
+    "name": "Hudhud",
+    "year": 2014,
+    "region": "Andhra Pradesh",
+    "max_wind_kmph": 185,
+    "min_pressure_hpa": 950,
+    "rainfall_mm": 300,
+    "population_affected": 900000
+  },
+  {
+    "id": "H002",
+    "name": "Phailin",
+    "year": 2013,
+    "region": "Andhra Pradesh",
+    "max_wind_kmph": 215,
+    "min_pressure_hpa": 940,
+    "rainfall_mm": 250,
+    "population_affected": 1000000
+  },
+  {
+    "id": "H003",
+    "name": "Titli",
+    "year": 2018,
+    "region": "Andhra Pradesh",
+    "max_wind_kmph": 150,
+    "min_pressure_hpa": 960,
+    "rainfall_mm": 280,
+    "population_affected": 500000
+  },
+  {
+    "id": "H004",
+    "name": "Gulab",
+    "year": 2021,
+    "region": "Andhra Pradesh",
+    "max_wind_kmph": 95,
+    "min_pressure_hpa": 985,
+    "rainfall_mm": 200,
+    "population_affected": 300000
+  }
+]

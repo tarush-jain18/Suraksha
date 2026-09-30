@@ -1,0 +1,38 @@
+{
+  "id": "CY001",
+  "name": "Demo Cyclone",
+  "category": "Very Severe Cyclonic Storm",
+  "max_wind_kmph": 150,
+  "min_pressure_hpa": 950,
+  "rainfall_mm": 250,
+  "track": [
+    {
+      "timestamp": "2026-09-22T06:00:00",
+      "latitude": 15.80,
+      "longitude": 82.00,
+      "wind_kmph": 110,
+      "pressure_hpa": 980
+    },
+    {
+      "timestamp": "2026-09-22T12:00:00",
+      "latitude": 16.20,
+      "longitude": 82.20,
+      "wind_kmph": 125,
+      "pressure_hpa": 970
+    },
+    {
+      "timestamp": "2026-09-22T18:00:00",
+      "latitude": 16.60,
+      "longitude": 82.40,
+      "wind_kmph": 140,
+      "pressure_hpa": 960
+    },
+    {
+      "timestamp": "2026-09-23T00:00:00",
+      "latitude": 17.00,
+      "longitude": 82.60,
+      "wind_kmph": 150,
+      "pressure_hpa": 950
+    }
+  ]
+}
