@@ -1,0 +1,728 @@
+{
+  "6": {
+    "success": true,
+    "cyclone": {
+      "id": "CY001",
+      "name": "Demo Cyclone"
+    },
+    "target": {
+      "latitude": 19.8135,
+      "longitude": 85.8312,
+      "location_name": "Puri"
+    },
+    "exposure": {
+      "population_score": 0.2,
+      "infrastructure_score": 0.172
+    },
+    "trigger_details": {
+      "risk_escalation": {
+        "escalation": false,
+        "threshold_crossed": false,
+        "current_level": "LOW",
+        "projected_level": "LOW",
+        "current_risk": 0.283,
+        "projected_risk": 0.316,
+        "increase": 0.033,
+        "hours_ahead": 36,
+        "reason": "Future risk is projected to increase but does not cross the next warning threshold."
+      },
+      "hazard_escalation": {
+        "escalation": true,
+        "hazard": "wind",
+        "current_score": 0.077,
+        "projected_score": 0.218,
+        "increase": 0.141,
+        "hours_ahead": 36,
+        "severity": "SIGNIFICANT",
+        "reason": "wind hazard is projected to increase significantly."
+      },
+      "reasons": [
+        "wind hazard is projected to increase significantly."
+      ]
+    },
+    "forecast": {
+      "hours_ahead": 6,
+      "timestamp": "2026-09-23T06:00:00",
+      "forecast_type": "projected",
+      "wind_kmph": 155,
+      "pressure_hpa": 945,
+      "distance_to_location_km": 319.39
+    },
+    "warning": {
+      "trigger": true,
+      "warning_level": "WATCH",
+      "current_level": "LOW",
+      "projected_level": "LOW",
+      "current_risk": 0.2831,
+      "projected_risk": 0.2873,
+      "current_percentage": 28.31,
+      "projected_percentage": 28.73,
+      "lead_time_hours": 6
+    },
+    "hazards": {
+      "wind": 0.0922,
+      "rainfall": 1.0,
+      "storm_surge": 0.8418,
+      "flood": 0.9325
+    },
+    "advisory": {
+      "success": true,
+      "model": "gemini-3.8-flash",
+      "authority_type": "DISTRICT_DISASTER_MANAGEMENT",
+      "location": "Puri",
+      "advisory": {
+        "title": "Cyclone Advisory: Demo Cyclone - Puri District Disaster Management",
+        "severity": "LOW",
+        "summary": "Current overall risk for Puri remains LOW (0.283) with a projected LOW risk (0.287) over a 6-hour lead time. Critical rainfall, flood and storm surge hazards remain active, while wind hazard is projected to increase.",
+        "risk_status": {
+          "current_risk": 0.283,
+          "current_level": "LOW",
+          "projected_risk": 0.2873,
+          "projected_level": "LOW",
+          "lead_time_hours": 6
+        },
+        "hazard_impacts": [
+          {
+            "hazard": "Rainfall",
+            "severity": "HIGH",
+            "message": "Rainfall hazard index is at maximum (1.0), indicating severe localized waterlogging and drainage saturation."
+          },
+          {
+            "hazard": "Flood",
+            "severity": "HIGH",
+            "message": "Flood hazard index of 0.9325 indicates very high inundation potential in vulnerable drainage and low-lying areas."
+          },
+          {
+            "hazard": "Storm Surge",
+            "severity": "HIGH",
+            "message": "Storm surge index of 0.8418 indicates elevated coastal inundation and backwater pressure."
+          },
+          {
+            "hazard": "Wind",
+            "severity": "MODERATE",
+            "message": "Wind hazard is currently 0.0922 but is projected to increase significantly."
+          }
+        ],
+        "population_impacts": "Population exposure score is low (0.200), with localized exposure concentrated in low-lying coastal and flood-prone sectors.",
+        "infrastructure_impacts": "Infrastructure exposure score is low (0.172), with operational attention required for drainage networks, transport corridors and coastal utilities.",
+        "authority_actions": [
+          "Pre-position dewatering pumps and municipal response units in flood-prone zones.",
+          "Activate coastal barrier monitoring and restrict access to exposed beachfront and floodway areas.",
+          "Inspect emergency shelters and verify backup power systems.",
+          "Coordinate drainage and irrigation teams to monitor water levels and sluice gates."
+        ],
+        "priority_actions": [
+          "Deploy emergency response teams to acute flood and storm-surge risk zones.",
+          "Prepare for projected wind hazard escalation over the next 6 hours."
+        ],
+        "flash_message": "PURI ADVISORY: Overall risk LOW (0.283), but critical flood, rainfall and surge hazards are active; wind escalation projected within 6 hours."
+      },
+      "fallback": false
+    }
+  },
+  "12": {
+    "success": true,
+    "cyclone": {
+      "id": "CY001",
+      "name": "Demo Cyclone"
+    },
+    "target": {
+      "latitude": 19.8135,
+      "longitude": 85.8312,
+      "location_name": "Puri"
+    },
+    "exposure": {
+      "population_score": 0.2,
+      "infrastructure_score": 0.172
+    },
+    "trigger_details": {
+      "risk_escalation": {
+        "escalation": false,
+        "threshold_crossed": false,
+        "current_level": "LOW",
+        "projected_level": "LOW",
+        "current_risk": 0.283,
+        "projected_risk": 0.316,
+        "increase": 0.033,
+        "hours_ahead": 36,
+        "reason": "Future risk is projected to increase but does not cross the next warning threshold."
+      },
+      "hazard_escalation": {
+        "escalation": true,
+        "hazard": "wind",
+        "current_score": 0.077,
+        "projected_score": 0.218,
+        "increase": 0.141,
+        "hours_ahead": 36,
+        "severity": "SIGNIFICANT",
+        "reason": "wind hazard is projected to increase significantly."
+      },
+      "reasons": [
+        "wind hazard is projected to increase significantly."
+      ]
+    },
+    "forecast": {
+      "hours_ahead": 12,
+      "timestamp": "2026-09-23T12:00:00",
+      "forecast_type": "projected",
+      "wind_kmph": 160,
+      "pressure_hpa": 940,
+      "distance_to_location_km": 297.98
+    },
+    "warning": {
+      "trigger": true,
+      "warning_level": "WATCH",
+      "current_level": "LOW",
+      "projected_level": "LOW",
+      "current_risk": 0.2831,
+      "projected_risk": 0.2919,
+      "current_percentage": 28.31,
+      "projected_percentage": 29.19,
+      "lead_time_hours": 12
+    },
+    "hazards": {
+      "wind": 0.1097,
+      "rainfall": 1.0,
+      "storm_surge": 0.8543,
+      "flood": 0.9363
+    },
+    "advisory": {
+      "success": true,
+      "model": "gemini-3.8-flash",
+      "authority_type": "DISTRICT_DISASTER_MANAGEMENT",
+      "location": "Puri",
+      "advisory": {
+        "title": "Operational Cyclone Advisory: Demo Cyclone - Puri District",
+        "severity": "LOW",
+        "summary": "Demo Cyclone advisory for Puri District Disaster Management. Current overall risk is 0.283 (LOW) with projected risk of 0.292 (LOW) across a 12-hour lead time. Extreme rainfall, severe flooding and elevated storm surge remain the dominant operational hazards.",
+        "risk_status": {
+          "current_risk": 0.283,
+          "current_level": "LOW",
+          "projected_risk": 0.2919,
+          "projected_level": "LOW",
+          "lead_time_hours": 12
+        },
+        "hazard_impacts": [
+          {
+            "hazard": "Rainfall",
+            "severity": "EMERGENCY",
+            "message": "Rainfall hazard index of 1.0 indicates severe localized inundation and rapid drainage saturation."
+          },
+          {
+            "hazard": "Flood",
+            "severity": "HIGH",
+            "message": "Flood hazard index of 0.9363 indicates high inundation potential."
+          },
+          {
+            "hazard": "Storm Surge",
+            "severity": "HIGH",
+            "message": "Storm surge index of 0.8543 threatens low-lying coastal sectors."
+          },
+          {
+            "hazard": "Wind",
+            "severity": "MODERATE",
+            "message": "Wind hazard is currently 0.1097 and is projected to increase significantly."
+          }
+        ],
+        "population_impacts": "Population exposure is low at 0.200, but vulnerable coastal and flood-prone communities require monitoring.",
+        "infrastructure_impacts": "Infrastructure exposure is 0.172, with drainage, coastal barriers and access routes requiring operational attention.",
+        "authority_actions": [
+          "Position emergency dewatering pumps and flood rescue units.",
+          "Inspect and secure coastal embankments and sluice gates.",
+          "Prepare emergency shelters and evacuation routes.",
+          "Monitor wind conditions continuously over the next 12 hours."
+        ],
+        "priority_actions": [
+          "Pre-deploy flood and drainage mitigation teams.",
+          "Maintain continuous monitoring of coastal defenses and loose infrastructure."
+        ],
+        "flash_message": "PURI ADVISORY: 12h lead time. Overall risk LOW (0.283→0.292), but extreme rainfall and flood hazards remain active; wind projected to increase."
+      },
+      "fallback": false
+    }
+  },
+  "18": {
+    "success": true,
+    "cyclone": {
+      "id": "CY001",
+      "name": "Demo Cyclone"
+    },
+    "target": {
+      "latitude": 19.8135,
+      "longitude": 85.8312,
+      "location_name": "Puri"
+    },
+    "exposure": {
+      "population_score": 0.2,
+      "infrastructure_score": 0.172
+    },
+    "trigger_details": {
+      "risk_escalation": {
+        "escalation": false,
+        "threshold_crossed": false,
+        "current_level": "LOW",
+        "projected_level": "LOW",
+        "current_risk": 0.283,
+        "projected_risk": 0.316,
+        "increase": 0.033,
+        "hours_ahead": 36,
+        "reason": "Future risk is projected to increase but does not cross the next warning threshold."
+      },
+      "hazard_escalation": {
+        "escalation": true,
+        "hazard": "wind",
+        "current_score": 0.077,
+        "projected_score": 0.218,
+        "increase": 0.141,
+        "hours_ahead": 36,
+        "severity": "SIGNIFICANT",
+        "reason": "wind hazard is projected to increase significantly."
+      },
+      "reasons": [
+        "wind hazard is projected to increase significantly."
+      ]
+    },
+    "forecast": {
+      "hours_ahead": 18,
+      "timestamp": "2026-09-23T18:00:00",
+      "forecast_type": "projected",
+      "wind_kmph": 165,
+      "pressure_hpa": 935,
+      "distance_to_location_km": 276.61
+    },
+    "warning": {
+      "trigger": true,
+      "warning_level": "WATCH",
+      "current_level": "LOW",
+      "projected_level": "LOW",
+      "current_risk": 0.2831,
+      "projected_risk": 0.2965,
+      "current_percentage": 28.31,
+      "projected_percentage": 29.65,
+      "lead_time_hours": 18
+    },
+    "hazards": {
+      "wind": 0.1275,
+      "rainfall": 1.0,
+      "storm_surge": 0.8668,
+      "flood": 0.94
+    },
+    "advisory": {
+      "success": true,
+      "model": "gemini-3.8-flash",
+      "authority_type": "DISTRICT_DISASTER_MANAGEMENT",
+      "location": "Puri",
+      "advisory": {
+        "title": "Operational Cyclone Advisory: Demo Cyclone - Puri District",
+        "severity": "LOW",
+        "summary": "Puri remains under a WATCH with overall projected risk remaining LOW at 0.297 over an 18-hour horizon. Rainfall, flood and storm-surge hazards remain elevated while wind hazard continues its projected increase.",
+        "risk_status": {
+          "current_risk": 0.283,
+          "current_level": "LOW",
+          "projected_risk": 0.2965,
+          "projected_level": "LOW",
+          "lead_time_hours": 18
+        },
+        "hazard_impacts": [
+          {
+            "hazard": "Rainfall",
+            "severity": "HIGH",
+            "message": "Rainfall hazard remains at maximum index, indicating continued drainage saturation and waterlogging potential."
+          },
+          {
+            "hazard": "Flood",
+            "severity": "HIGH",
+            "message": "Flood hazard remains very high at approximately 0.94."
+          },
+          {
+            "hazard": "Storm Surge",
+            "severity": "HIGH",
+            "message": "Storm surge hazard remains elevated and requires coastal monitoring."
+          },
+          {
+            "hazard": "Wind",
+            "severity": "MODERATE",
+            "message": "Wind hazard is increasing and requires preparation of exposed structures and response teams."
+          }
+        ],
+        "population_impacts": "Population exposure remains 0.200, with greatest concern for low-lying coastal and drainage-sensitive communities.",
+        "infrastructure_impacts": "Infrastructure exposure remains 0.172, with drainage, coastal barriers and transport routes requiring monitoring.",
+        "authority_actions": [
+          "Maintain flood-response teams at identified vulnerable locations.",
+          "Inspect coastal defenses and drainage infrastructure.",
+          "Verify shelter readiness and emergency communication systems.",
+          "Begin preparations for increasing wind conditions."
+        ],
+        "priority_actions": [
+          "Maintain flood and storm-surge monitoring operations.",
+          "Prepare emergency resources for increasing wind hazard."
+        ],
+        "flash_message": "PURI ADVISORY: 18h lead time. Risk remains LOW (0.283→0.297), while rainfall, flood and surge hazards remain elevated."
+      },
+      "fallback": false
+    }
+  },
+  "24": {
+    "success": true,
+    "cyclone": {
+      "id": "CY001",
+      "name": "Demo Cyclone"
+    },
+    "target": {
+      "latitude": 19.8135,
+      "longitude": 85.8312,
+      "location_name": "Puri"
+    },
+    "exposure": {
+      "population_score": 0.2,
+      "infrastructure_score": 0.172
+    },
+    "trigger_details": {
+      "risk_escalation": {
+        "escalation": false,
+        "threshold_crossed": false,
+        "current_level": "LOW",
+        "projected_level": "LOW",
+        "current_risk": 0.283,
+        "projected_risk": 0.316,
+        "increase": 0.033,
+        "hours_ahead": 36,
+        "reason": "Future risk is projected to increase but does not cross the next warning threshold."
+      },
+      "hazard_escalation": {
+        "escalation": true,
+        "hazard": "wind",
+        "current_score": 0.077,
+        "projected_score": 0.218,
+        "increase": 0.141,
+        "hours_ahead": 36,
+        "severity": "SIGNIFICANT",
+        "reason": "wind hazard is projected to increase significantly."
+      },
+      "reasons": [
+        "wind hazard is projected to increase significantly."
+      ]
+    },
+    "forecast": {
+      "hours_ahead": 24,
+      "timestamp": "2026-09-24T00:00:00",
+      "forecast_type": "projected",
+      "wind_kmph": 170,
+      "pressure_hpa": 930,
+      "distance_to_location_km": 255.33
+    },
+    "warning": {
+      "trigger": true,
+      "warning_level": "WATCH",
+      "current_level": "LOW",
+      "projected_level": "LOW",
+      "current_risk": 0.2831,
+      "projected_risk": 0.301,
+      "current_percentage": 28.31,
+      "projected_percentage": 30.1,
+      "lead_time_hours": 24
+    },
+    "hazards": {
+      "wind": 0.1456,
+      "rainfall": 1.0,
+      "storm_surge": 0.8793,
+      "flood": 0.9438
+    },
+    "advisory": {
+      "success": true,
+      "model": "gemini-3.8-flash",
+      "authority_type": "DISTRICT_DISASTER_MANAGEMENT",
+      "location": "Puri",
+      "advisory": {
+        "title": "Operational Cyclone Advisory: Demo Cyclone - Puri District",
+        "severity": "LOW",
+        "summary": "At a 24-hour horizon, Puri remains at LOW projected composite risk while rainfall, flooding and storm surge remain significant operational hazards. Wind hazard continues to increase toward the forecast period.",
+        "risk_status": {
+          "current_risk": 0.283,
+          "current_level": "LOW",
+          "projected_risk": 0.301,
+          "projected_level": "LOW",
+          "lead_time_hours": 24
+        },
+        "hazard_impacts": [
+          {
+            "hazard": "Rainfall",
+            "severity": "HIGH",
+            "message": "Maximum rainfall hazard indicates continued potential for waterlogging and drainage saturation."
+          },
+          {
+            "hazard": "Flood",
+            "severity": "HIGH",
+            "message": "Flood hazard of approximately 0.944 indicates severe inundation potential."
+          },
+          {
+            "hazard": "Storm Surge",
+            "severity": "HIGH",
+            "message": "Storm surge hazard of approximately 0.879 requires coastal defense monitoring."
+          },
+          {
+            "hazard": "Wind",
+            "severity": "MODERATE",
+            "message": "Wind hazard is increasing and preparedness for exposed structures is required."
+          }
+        ],
+        "population_impacts": "Population exposure score remains 0.200, with vulnerable communities concentrated in coastal and low-lying areas.",
+        "infrastructure_impacts": "Infrastructure exposure remains 0.172, with drainage systems, coastal barriers and transport corridors requiring preparedness.",
+        "authority_actions": [
+          "Increase monitoring of flood-prone drainage networks.",
+          "Inspect coastal embankments, sluice gates and flood defenses.",
+          "Confirm shelter capacity and emergency power availability.",
+          "Prepare response teams for further wind intensification."
+        ],
+        "priority_actions": [
+          "Maintain high-priority monitoring of flood and storm-surge zones.",
+          "Secure vulnerable infrastructure before further wind escalation."
+        ],
+        "flash_message": "PURI ADVISORY: 24h lead time. Risk LOW (0.283→0.301), with severe rainfall, flood and surge hazards requiring continued preparedness."
+      },
+      "fallback": false
+    }
+  },
+  "30": {
+    "success": true,
+    "cyclone": {
+      "id": "CY001",
+      "name": "Demo Cyclone"
+    },
+    "target": {
+      "latitude": 19.8135,
+      "longitude": 85.8312,
+      "location_name": "Puri"
+    },
+    "exposure": {
+      "population_score": 0.2,
+      "infrastructure_score": 0.172
+    },
+    "trigger_details": {
+      "risk_escalation": {
+        "escalation": false,
+        "threshold_crossed": false,
+        "current_level": "LOW",
+        "projected_level": "LOW",
+        "current_risk": 0.283,
+        "projected_risk": 0.316,
+        "increase": 0.033,
+        "hours_ahead": 36,
+        "reason": "Future risk is projected to increase but does not cross the next warning threshold."
+      },
+      "hazard_escalation": {
+        "escalation": true,
+        "hazard": "wind",
+        "current_score": 0.077,
+        "projected_score": 0.218,
+        "increase": 0.141,
+        "hours_ahead": 36,
+        "severity": "SIGNIFICANT",
+        "reason": "wind hazard is projected to increase significantly."
+      },
+      "reasons": [
+        "wind hazard is projected to increase significantly."
+      ]
+    },
+    "forecast": {
+      "hours_ahead": 30,
+      "timestamp": "2026-09-24T06:00:00",
+      "forecast_type": "projected",
+      "wind_kmph": 175,
+      "pressure_hpa": 925,
+      "distance_to_location_km": 234.04
+    },
+    "warning": {
+      "trigger": true,
+      "warning_level": "WATCH",
+      "current_level": "LOW",
+      "projected_level": "LOW",
+      "current_risk": 0.2831,
+      "projected_risk": 0.3068,
+      "current_percentage": 28.31,
+      "projected_percentage": 30.68,
+      "lead_time_hours": 30
+    },
+    "hazards": {
+      "wind": 0.1815,
+      "rainfall": 1.0,
+      "storm_surge": 0.8918,
+      "flood": 0.9475
+    },
+    "advisory": {
+      "success": true,
+      "model": "gemini-3.8-flash",
+      "authority_type": "DISTRICT_DISASTER_MANAGEMENT",
+      "location": "Puri",
+      "advisory": {
+        "title": "Operational Cyclone Advisory: Demo Cyclone - Puri District",
+        "severity": "LOW",
+        "summary": "Puri has a projected LOW composite risk of 0.307 at the 30-hour horizon. However, rainfall, flood and storm-surge hazards remain severe and wind hazard is approaching higher operational concern.",
+        "risk_status": {
+          "current_risk": 0.283,
+          "current_level": "LOW",
+          "projected_risk": 0.3068,
+          "projected_level": "LOW",
+          "lead_time_hours": 30
+        },
+        "hazard_impacts": [
+          {
+            "hazard": "Rainfall",
+            "severity": "HIGH",
+            "message": "Rainfall hazard remains at maximum, indicating continued severe drainage and inundation pressure."
+          },
+          {
+            "hazard": "Flood",
+            "severity": "HIGH",
+            "message": "Flood hazard of approximately 0.948 indicates critical exposure for low-lying areas."
+          },
+          {
+            "hazard": "Storm Surge",
+            "severity": "HIGH",
+            "message": "Storm surge hazard of approximately 0.892 requires continued coastal defense readiness."
+          },
+          {
+            "hazard": "Wind",
+            "severity": "MODERATE",
+            "message": "Wind hazard is rising toward 0.18 and requires increasing preparedness."
+          }
+        ],
+        "population_impacts": "Population exposure remains 0.200, with highest concern for coastal and flood-sensitive communities.",
+        "infrastructure_impacts": "Infrastructure exposure remains 0.172, with increasing attention required for coastal infrastructure, drainage and exposed utilities.",
+        "authority_actions": [
+          "Maintain emergency flood-response resources at vulnerable locations.",
+          "Secure coastal barriers, drainage infrastructure and exposed utilities.",
+          "Verify shelter and evacuation-route readiness.",
+          "Increase monitoring frequency for projected wind intensification."
+        ],
+        "priority_actions": [
+          "Maintain continuous flood and storm-surge monitoring.",
+          "Secure vulnerable structures before the cyclone approaches the target area."
+        ],
+        "flash_message": "PURI ADVISORY: 30h lead time. Risk LOW (0.283→0.307); flood, rainfall and surge hazards remain severe while wind continues increasing."
+      },
+      "fallback": false
+    }
+  },
+  "36": {
+    "success": true,
+    "cyclone": {
+      "id": "CY001",
+      "name": "Demo Cyclone"
+    },
+    "target": {
+      "latitude": 19.8135,
+      "longitude": 85.8312,
+      "location_name": "Puri"
+    },
+    "exposure": {
+      "population_score": 0.2,
+      "infrastructure_score": 0.172
+    },
+    "trigger_details": {
+      "risk_escalation": {
+        "escalation": false,
+        "threshold_crossed": false,
+        "current_level": "LOW",
+        "projected_level": "LOW",
+        "current_risk": 0.283,
+        "projected_risk": 0.316,
+        "increase": 0.033,
+        "hours_ahead": 36,
+        "reason": "Future risk is projected to increase but does not cross the next warning threshold."
+      },
+      "hazard_escalation": {
+        "escalation": true,
+        "hazard": "wind",
+        "current_score": 0.077,
+        "projected_score": 0.218,
+        "increase": 0.141,
+        "hours_ahead": 36,
+        "severity": "SIGNIFICANT",
+        "reason": "wind hazard is projected to increase significantly."
+      },
+      "reasons": [
+        "wind hazard is projected to increase significantly."
+      ]
+    },
+    "forecast": {
+      "hours_ahead": 36,
+      "timestamp": "2026-09-24T12:00:00",
+      "forecast_type": "projected",
+      "wind_kmph": 180,
+      "pressure_hpa": 920,
+      "distance_to_location_km": 212.76
+    },
+    "warning": {
+      "trigger": true,
+      "warning_level": "WATCH",
+      "current_level": "LOW",
+      "projected_level": "LOW",
+      "current_risk": 0.2831,
+      "projected_risk": 0.3162,
+      "current_percentage": 28.31,
+      "projected_percentage": 31.62,
+      "lead_time_hours": 36
+    },
+    "hazards": {
+      "wind": 0.2179,
+      "rainfall": 1.0,
+      "storm_surge": 0.9043,
+      "flood": 0.9513
+    },
+    "advisory": {
+      "success": true,
+      "model": "gemini-3.8-flash",
+      "authority_type": "DISTRICT_DISASTER_MANAGEMENT",
+      "location": "Puri",
+      "advisory": {
+        "title": "Operational Cyclone Advisory: Demo Cyclone - Puri District",
+        "severity": "LOW",
+        "summary": "Puri District Disaster Management advisory for Demo Cyclone. Current overall risk is LOW (0.283) and projected to remain LOW (0.316) across a 36-hour lead time. Severe rainfall, flood and storm-surge hazards are active, with wind hazard projected to increase significantly.",
+        "risk_status": {
+          "current_risk": 0.283,
+          "current_level": "LOW",
+          "projected_risk": 0.3162,
+          "projected_level": "LOW",
+          "lead_time_hours": 36
+        },
+        "hazard_impacts": [
+          {
+            "hazard": "Rainfall",
+            "severity": "HIGH",
+            "message": "Rainfall hazard index is at maximum (1.0), posing extreme risk of localized waterlogging and drainage saturation."
+          },
+          {
+            "hazard": "Flood",
+            "severity": "HIGH",
+            "message": "Flood hazard score of 0.9513 indicates critical operational exposure for low-lying drainage basins and waterways."
+          },
+          {
+            "hazard": "Storm Surge",
+            "severity": "HIGH",
+            "message": "Storm surge index of 0.9043 requires heightened monitoring of coastal margins and tidal ingress points."
+          },
+          {
+            "hazard": "Wind",
+            "severity": "MODERATE",
+            "message": "Current wind index is low (0.2179) but is projected to increase significantly within the 36-hour lead time."
+          }
+        ],
+        "population_impacts": "Population exposure score is low (0.2). Impact is concentrated primarily in sectors vulnerable to high rainfall, coastal inundation, and secondary flooding.",
+        "infrastructure_impacts": "Infrastructure exposure score is low (0.172). Operational vulnerability is concentrated around drainage systems, flood barriers and coastal infrastructure exposed to high storm surge.",
+        "authority_actions": [
+          "Alert municipal and block-level response teams to monitor rainfall accumulation and drainage choke points.",
+          "Inspect and secure coastal embankments, sluice gates and vulnerable flood defenses.",
+          "Pre-position dewatering equipment and standby power units in areas susceptible to severe waterlogging.",
+          "Establish tracking protocols for projected escalation in wind speeds over the 36-hour forecast window."
+        ],
+        "priority_actions": [
+          "Activate flood and storm-surge operational monitoring units immediately due to hazard scores exceeding 0.90.",
+          "Prepare response teams for projected significant increases in wind hazard within the 36-hour lead time."
+        ],
+        "flash_message": "PURI ADVISORY: Demo Cyclone risk LOW (0.283→0.316), but rainfall (1.0), flood (0.95), and surge (0.90) hazards critical; wind projected to increase in 36h."
+      },
+      "fallback": false
+    }
+  }
+}

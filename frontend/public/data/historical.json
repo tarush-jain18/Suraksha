@@ -1,0 +1,101 @@
+{
+  "success": true,
+  "region": "Odisha",
+  "statistics": {
+    "total_cyclones": 19,
+    "cyclones_entering_odisha": 9,
+    "average_max_wind_kmph": 132.1,
+    "maximum_wind_kmph": 240.8,
+    "average_min_pressure_hpa": 969.1,
+    "lowest_pressure_hpa": 900.0
+  },
+  "cyclones": [
+    {
+      "name": "TITLI",
+      "year": 2018,
+      "max_wind_kmph": 148.2,
+      "min_pressure_hpa": 972.0,
+      "minimum_distance_to_odisha_km": 3.63,
+      "track_intersects_odisha": true
+    },
+    {
+      "name": "YAAS",
+      "year": 2021,
+      "max_wind_kmph": 138.9,
+      "min_pressure_hpa": 970.0,
+      "minimum_distance_to_odisha_km": 7.73,
+      "track_intersects_odisha": true
+    },
+    {
+      "name": "BULBUL:MATMO",
+      "year": 2019,
+      "max_wind_kmph": 138.9,
+      "min_pressure_hpa": 976.0,
+      "minimum_distance_to_odisha_km": 65.67,
+      "track_intersects_odisha": false
+    },
+    {
+      "name": "HUDHUD",
+      "year": 2014,
+      "max_wind_kmph": 185.2,
+      "min_pressure_hpa": 950.0,
+      "minimum_distance_to_odisha_km": 8.14,
+      "track_intersects_odisha": true
+    },
+    {
+      "name": "AILA",
+      "year": 2009,
+      "max_wind_kmph": 111.1,
+      "min_pressure_hpa": 968.0,
+      "minimum_distance_to_odisha_km": 74.28,
+      "track_intersects_odisha": false
+    }
+  ],
+  "similar_cyclones": [
+    {
+      "name": "TITLI",
+      "year": 2018,
+      "max_wind_kmph": 148.2,
+      "min_pressure_hpa": 972.0,
+      "minimum_distance_to_odisha_km": 3.63,
+      "track_intersects_odisha": true,
+      "similarity_percentage": 90.12
+    },
+    {
+      "name": "YAAS",
+      "year": 2021,
+      "max_wind_kmph": 138.9,
+      "min_pressure_hpa": 970.0,
+      "minimum_distance_to_odisha_km": 7.73,
+      "track_intersects_odisha": true,
+      "similarity_percentage": 85.34
+    },
+    {
+      "name": "BULBUL:MATMO",
+      "year": 2019,
+      "max_wind_kmph": 138.9,
+      "min_pressure_hpa": 976.0,
+      "minimum_distance_to_odisha_km": 65.67,
+      "track_intersects_odisha": false,
+      "similarity_percentage": 82.94
+    },
+    {
+      "name": "HUDHUD",
+      "year": 2014,
+      "max_wind_kmph": 185.2,
+      "min_pressure_hpa": 950.0,
+      "minimum_distance_to_odisha_km": 8.14,
+      "track_intersects_odisha": true,
+      "similarity_percentage": 78.88
+    },
+    {
+      "name": "AILA",
+      "year": 2009,
+      "max_wind_kmph": 111.1,
+      "min_pressure_hpa": 968.0,
+      "minimum_distance_to_odisha_km": 74.28,
+      "track_intersects_odisha": false,
+      "similarity_percentage": 69.46
+    }
+  ]
+}
