@@ -163,7 +163,7 @@ export default function Sidebar() {
 
         <div className="sidebar-brand-text">
           <div className="sidebar-brand-name">
-            SURA RAKSHA
+            SURAKSHA
           </div>
 
           <div className="sidebar-brand-subtitle">
@@ -233,7 +233,7 @@ export default function Sidebar() {
         </div>
 
         <div className="sidebar-version">
-          SURA RAKSHA <span>v1.0</span>
+          SURAKSHA <span>v1.0</span>
         </div>
 
       </div>
