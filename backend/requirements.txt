@@ -31,4 +31,9 @@ typing-inspection==0.4.4
 typing_extensions==4.16.0
 urllib3==2.8.0
 uvicorn==0.53.0
-PyMuPDF==1.23.6PyMuPDF
+Pillow==12.3.0
+pytesseract==0.3.13
+beautifulsoup4==4.15.0
+pypdf==6.19.0
+earthengine-api
+google-genai
